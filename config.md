@@ -8,7 +8,7 @@ Este repositório contém a infraestrutura para rodar o ChirpStack no WSL2 com s
 | Item | Ação | Code |
 | :--- | :--- | :--- |
 | 1 | Clonar o repositório | `git clone https://github.com/ThainanST/chirpstack-docker.git` |
-| 2 | Dar permissão aos scripts | `chmod +x network-gateway-config.sh gateway-cleanup.sh` |
+| 2 | Dar permissão aos scripts | `chmod +x network-gateway-config.sh config-cleanup.sh` |
 | 3 | Rodar configurador/relay | `./network-gateway-config.sh` |
 | 4 | Limpar após o uso | `./config-cleanup.sh` |
 
